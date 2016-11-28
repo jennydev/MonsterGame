@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ninja vs Monsters</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <script src="js/vendor/jquery/jquery-1.12.1.min.js"></script>
+    <script src="js/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="basic-panel" style="min-height:312px;">
+
+
+                <div class="row">
+                    <div class="col-xs-4">
+                        <img class="avatar" src=""/>
+                    </div>
+                    <div class="col-xs-8">
+                        <table class="table">
+
+                            <tbody>
+                            <tr>
+                                <td class="text-right">Name:</td>
+                                <td style="width:80%"><span id="name" style="color:#28ca64;"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="text-right">
+                                    <img class="hero-icon" src="assets/img/life.png"/>
+                                </td>
+                                <td>
+                                    <span class="health-amount">20/100</span>
+
+                                    <div class="bar">
+                                        <div class="health"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-right">
+                                    <img class="hero-icon" src="assets/img/energy.png"/>
+                                </td>
+                                <td>
+                                    <span class="energy-amount">20/100</span>
+
+                                    <div class="bar">
+                                        <div class="energy"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-right">
+                                    <img class="hero-icon" src="assets/img/coins.png"/>
+                                </td>
+                                <td>
+                                    <span id="gold" style="color:yellow;"></span>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 gift-container">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="basic-panel">
+                <div class="monsters-container">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="game-over" class="container">
+    <div class="game-over">Game Over
+        <p class="final-score">Score: <span class="gold"></span>
+
+        <p>
+
+        <p class="killed">Monsters killed: <span class="count"></span>
+
+        <p>
+        <div class="row">
+            <div class="restart col-lg-3">
+                <button class="btn-primary btn reload">Play Again</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="monster" style="display:none;" data-index="">
+    <div class="monster-info audio">
+        <span class="name">Monster</span>
+
+        <div class="monster-stats">
+            <img src="assets/img/sword.png"> <span class="damage" style="color:red">4</span>
+            <img class="hero-icon" src="assets/img/energy.png"/><span class="energy-consumes"
+                                                                      style="color:#da07da">3</span>
+            <img class="hero-icon" src="assets/img/coins.png"/><span class="gold" style="color:yellow;">30</span>
+        </div>
+    </div>
+    <img class="monster-image" src="assets/img/monster_01.jpg">
+</div>
+
+<div class="gift">
+    <span class="number">5</span>
+    <img class="gift-img" src="assets/img/magic_bulb.png" alt=""/>
+</div>
+
+
+<script>
+    start();
+</script>
+</body>
+</html>

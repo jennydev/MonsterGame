@@ -1,0 +1,112 @@
+{
+  "player": {
+    "name": "Пичка Лелина",
+    "avatar":"assets/img/hero.png",
+    "gold": 520,
+    "currentHealth": 50,
+    "maxHealth":100,
+    "energy": 50,
+    "maxEnergy":100
+  },
+  "monsters": [
+    {
+      "name": "Чок Пордот Бабаит",
+      "avatar": "assets/img/monster_01.jpg",
+      "damage": 4,
+      "energy": 8,
+      "gold":30
+    },
+    {
+      "name": "Селски Тарикат",
+      "avatar": "assets/img/monster_02.jpg",
+      "damage": 5,
+      "energy": 7,
+      "gold":120
+    },
+    {
+      "name": "Остра Богомолка",
+      "avatar": "assets/img/monster_03.jpg",
+      "damage": 12,
+      "energy": 30,
+      "gold":300
+    },
+    {
+      "name": "Гнясен Отровняк",
+      "avatar": "assets/img/monster_04.jpg",
+      "damage": 14,
+      "energy": 5,
+      "gold":32
+    },
+    {
+      "name": "Мангуста Мутант",
+      "avatar": "assets/img/monster_05.jpg",
+      "damage": 10,
+      "energy": 6,
+      "gold":50
+    },
+    {
+      "name": "Посинял Ербап",
+      "avatar": "assets/img/monster_06.jpg",
+      "damage": 4,
+      "energy": 8,
+      "gold":30
+    },
+    {
+      "name": "Долен Главанак",
+      "avatar": "assets/img/monster_07.jpg",
+      "damage": 5,
+      "energy": 7,
+      "gold":120
+    },
+    {
+      "name": "Пишлеме Гнида",
+      "avatar": "assets/img/monster_08.jpg",
+      "damage": 12,
+      "energy": 30,
+      "gold":300
+    },
+    {
+      "name": "Квартален Серсем",
+      "avatar": "assets/img/monster_09.jpg",
+      "damage": 8,
+      "energy": 5,
+      "gold": 40
+    },
+    {
+      "name": "Тригръб Паласпур",
+      "avatar": "assets/img/monster_10.jpg",
+      "damage": 8,
+      "energy": 5,
+      "gold": 40
+    },
+    {
+      "name": "Шимейл Вожд",
+      "avatar": "assets/img/monster_11.jpg",
+      "damage": 8,
+      "energy": 5,
+      "gold": 40
+    },
+    {
+      "name": "Кора ми Янко",
+      "avatar": "assets/img/monster_12.jpg",
+      "damage": 11,
+      "energy": 11,
+      "gold": 100
+    }
+  ],
+  "gifts": [
+    {
+      "name": "blood",
+      "path": "assets/img/blood.png",
+      "amount": 10
+    },
+    {
+      "name": "stamina",
+      "path": "assets/img/magic_bulb.png",
+      "amount": 7
+    }
+  ]
+}
+
+
+
